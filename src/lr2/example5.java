@@ -16,7 +16,7 @@ public class example5 {
         int res;
 
         if (num / 1000 != 0) {
-            res = num / 1000;
+            res = (num / 1000) % 10;
             System.out.println("Тысяч в числе: " + res);
         } else {
             System.out.println("В числе нет тысяч");
