@@ -18,8 +18,15 @@ public class example10 {
         }
         System.out.println("В порядке убывания");
         Arrays.sort(num);
+        int n = num.length;
+        int temp;
+        for (int i = 0; i < n/2; i++) {
+            temp = num[n-i-1];
+            num[n-i-1] = num[i];
+            num[i] = temp;
+        }
         for (int i = 0; i < num.length; i++ ){
-               System.out.println("Эл. массива " + i + " = " + num[i]);
+            System.out.println("Эл. массива " + i + " = " + num[i]);
         }
     }
 }
