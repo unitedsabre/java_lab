@@ -1,14 +1,10 @@
 package timus.task_1785;
-
-import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class task1785 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
         int num = in.nextInt();
-
         if (num >= 1 && num <= 4) {
             System.out.println("few");
         }
