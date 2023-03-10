@@ -4,8 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class example3 {
-    public static void main(String[] args) { // Declare the byte array byte[] numbers;
-        // Read the array
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the size of the array: ");
         int size = scanner.nextInt();
@@ -25,7 +24,6 @@ public class example3 {
             }
         }
 
-        // Calculate the sum of the array
         int sum = 0;
         for(int i = 0; i < numbers.length; i++) {
             sum += numbers[i];
