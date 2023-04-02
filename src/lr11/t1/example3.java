@@ -1,4 +1,4 @@
-package lr11.task1;
+package lr11.t1;
 
 public class example3 {
     private static int step = 0;
